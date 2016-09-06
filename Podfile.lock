@@ -1,0 +1,36 @@
+PODS:
+  - Locksmith (2.0.8)
+  - ObjectMapper (1.4.0)
+  - Siesta (1.0-beta.8a):
+    - Siesta/Core (= 1.0-beta.8a)
+  - Siesta/Core (1.0-beta.8a)
+  - SwiftValidator (3.0.1)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - Locksmith
+  - ObjectMapper (~> 1.3)
+  - Siesta (= 1.0-beta.8a)
+  - SwiftValidator (from `https://github.com/jpotts18/SwiftValidator.git`, tag `4.0.0`)
+  - SwiftyJSON
+
+EXTERNAL SOURCES:
+  SwiftValidator:
+    :git: https://github.com/jpotts18/SwiftValidator.git
+    :tag: 4.0.0
+
+CHECKOUT OPTIONS:
+  SwiftValidator:
+    :git: https://github.com/jpotts18/SwiftValidator.git
+    :tag: 4.0.0
+
+SPEC CHECKSUMS:
+  Locksmith: a8ed41ac4c06506ea8cb199d8ec8a8d3d108eb2a
+  ObjectMapper: a07ad0462c5adf014adc0f89ef04c29b626e855e
+  Siesta: 090a1ed5f2b0ce6afda1335be1c39841264f96ae
+  SwiftValidator: 461a2c00173f001287a8fa1f12704b87ec8a6bc4
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+PODFILE CHECKSUM: 7c37ac9a55c6cf065e86fa6fab84643ddb4d71b4
+
+COCOAPODS: 1.0.1

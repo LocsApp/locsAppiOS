@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5BCEC3D8D0C837436E38E50C /* Pods_LocsappiOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9D11FDED7D7C52E62DE2AE /* Pods_LocsappiOSTests.framework */; };
+		6EEC831F864677303C82632D /* Pods_LocsappiOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACE6E2DD0ADF94FD579CADB /* Pods_LocsappiOSUITests.framework */; };
+		786548C69040E8F06D13B6DF /* Pods_LocsappiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC18370E865BB9EBAC6AD68B /* Pods_LocsappiOS.framework */; };
 		7C67C5BD1D7F52090029D48F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C67C5BC1D7F52090029D48F /* AppDelegate.swift */; };
 		7C67C5BF1D7F52090029D48F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C67C5BE1D7F52090029D48F /* ViewController.swift */; };
 		7C67C5C21D7F52090029D48F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C67C5C01D7F52090029D48F /* Main.storyboard */; };
@@ -34,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E2C42CAE1FB23B70FBD8C57 /* Pods-LocsappiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocsappiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocsappiOS/Pods-LocsappiOS.release.xcconfig"; sourceTree = "<group>"; };
+		1FB916D44CF3EC03C1285D86 /* Pods-LocsappiOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocsappiOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LocsappiOSUITests/Pods-LocsappiOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7457122A83E3C7F6760B0741 /* Pods-LocsappiOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocsappiOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocsappiOSTests/Pods-LocsappiOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		76041746997B4F83A2407788 /* Pods-LocsappiOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocsappiOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LocsappiOSTests/Pods-LocsappiOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7C67C5B91D7F52090029D48F /* LocsappiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocsappiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C67C5BC1D7F52090029D48F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C67C5BE1D7F52090029D48F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,11 @@
 		7C67C5D81D7F520A0029D48F /* LocsappiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocsappiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C67C5DC1D7F520A0029D48F /* LocsappiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocsappiOSUITests.swift; sourceTree = "<group>"; };
 		7C67C5DE1D7F520A0029D48F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		837E78AFFDE539E801189793 /* Pods-LocsappiOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocsappiOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocsappiOSUITests/Pods-LocsappiOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8A9D11FDED7D7C52E62DE2AE /* Pods_LocsappiOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocsappiOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		929C7F484AFB14115740C067 /* Pods-LocsappiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocsappiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LocsappiOS/Pods-LocsappiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		AACE6E2DD0ADF94FD579CADB /* Pods_LocsappiOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocsappiOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC18370E865BB9EBAC6AD68B /* Pods_LocsappiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocsappiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				786548C69040E8F06D13B6DF /* Pods_LocsappiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BCEC3D8D0C837436E38E50C /* Pods_LocsappiOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EEC831F864677303C82632D /* Pods_LocsappiOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18959D3FC00977A1C5ABF11B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC18370E865BB9EBAC6AD68B /* Pods_LocsappiOS.framework */,
+				8A9D11FDED7D7C52E62DE2AE /* Pods_LocsappiOSTests.framework */,
+				AACE6E2DD0ADF94FD579CADB /* Pods_LocsappiOSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CAB89FCE5050CDE98BEFF46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				929C7F484AFB14115740C067 /* Pods-LocsappiOS.debug.xcconfig */,
+				1E2C42CAE1FB23B70FBD8C57 /* Pods-LocsappiOS.release.xcconfig */,
+				76041746997B4F83A2407788 /* Pods-LocsappiOSTests.debug.xcconfig */,
+				7457122A83E3C7F6760B0741 /* Pods-LocsappiOSTests.release.xcconfig */,
+				1FB916D44CF3EC03C1285D86 /* Pods-LocsappiOSUITests.debug.xcconfig */,
+				837E78AFFDE539E801189793 /* Pods-LocsappiOSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7C67C5B01D7F52090029D48F = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				7C67C5D01D7F520A0029D48F /* LocsappiOSTests */,
 				7C67C5DB1D7F520A0029D48F /* LocsappiOSUITests */,
 				7C67C5BA1D7F52090029D48F /* Products */,
+				2CAB89FCE5050CDE98BEFF46 /* Pods */,
+				18959D3FC00977A1C5ABF11B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C67C5E11D7F520A0029D48F /* Build configuration list for PBXNativeTarget "LocsappiOS" */;
 			buildPhases = (
+				717E4AFF1616FE22B26E511C /* [CP] Check Pods Manifest.lock */,
 				7C67C5B51D7F52090029D48F /* Sources */,
 				7C67C5B61D7F52090029D48F /* Frameworks */,
 				7C67C5B71D7F52090029D48F /* Resources */,
+				D23FA3E03AD59824F467067A /* [CP] Embed Pods Frameworks */,
+				E63B4049DF60769DEB24981B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C67C5E41D7F520A0029D48F /* Build configuration list for PBXNativeTarget "LocsappiOSTests" */;
 			buildPhases = (
+				DDB7D57A9F839A92EBABA534 /* [CP] Check Pods Manifest.lock */,
 				7C67C5C91D7F520A0029D48F /* Sources */,
 				7C67C5CA1D7F520A0029D48F /* Frameworks */,
 				7C67C5CB1D7F520A0029D48F /* Resources */,
+				622F8E296F587F5F510BCE4A /* [CP] Embed Pods Frameworks */,
+				9498C597023A3A7389F99DC7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C67C5E71D7F520A0029D48F /* Build configuration list for PBXNativeTarget "LocsappiOSUITests" */;
 			buildPhases = (
+				D5F59EB4CC84C0BAE56E033E /* [CP] Check Pods Manifest.lock */,
 				7C67C5D41D7F520A0029D48F /* Sources */,
 				7C67C5D51D7F520A0029D48F /* Frameworks */,
 				7C67C5D61D7F520A0029D48F /* Resources */,
+				D3D9F94F6354DDBEEFB86882 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +298,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		622F8E296F587F5F510BCE4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocsappiOSTests/Pods-LocsappiOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		717E4AFF1616FE22B26E511C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9498C597023A3A7389F99DC7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocsappiOSTests/Pods-LocsappiOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D23FA3E03AD59824F467067A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocsappiOS/Pods-LocsappiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3D9F94F6354DDBEEFB86882 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocsappiOSUITests/Pods-LocsappiOSUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5F59EB4CC84C0BAE56E033E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DDB7D57A9F839A92EBABA534 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E63B4049DF60769DEB24981B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocsappiOS/Pods-LocsappiOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7C67C5B51D7F52090029D48F /* Sources */ = {
@@ -397,6 +568,7 @@
 		};
 		7C67C5E21D7F520A0029D48F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 929C7F484AFB14115740C067 /* Pods-LocsappiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LocsappiOS/Info.plist;
@@ -408,6 +580,7 @@
 		};
 		7C67C5E31D7F520A0029D48F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E2C42CAE1FB23B70FBD8C57 /* Pods-LocsappiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LocsappiOS/Info.plist;
@@ -419,6 +592,7 @@
 		};
 		7C67C5E51D7F520A0029D48F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76041746997B4F83A2407788 /* Pods-LocsappiOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = LocsappiOSTests/Info.plist;
@@ -431,6 +605,7 @@
 		};
 		7C67C5E61D7F520A0029D48F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7457122A83E3C7F6760B0741 /* Pods-LocsappiOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = LocsappiOSTests/Info.plist;
@@ -443,6 +618,7 @@
 		};
 		7C67C5E81D7F520A0029D48F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FB916D44CF3EC03C1285D86 /* Pods-LocsappiOSUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = LocsappiOSUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -454,6 +630,7 @@
 		};
 		7C67C5E91D7F520A0029D48F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 837E78AFFDE539E801189793 /* Pods-LocsappiOSUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = LocsappiOSUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -482,6 +659,7 @@
 				7C67C5E31D7F520A0029D48F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C67C5E41D7F520A0029D48F /* Build configuration list for PBXNativeTarget "LocsappiOSTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +668,7 @@
 				7C67C5E61D7F520A0029D48F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C67C5E71D7F520A0029D48F /* Build configuration list for PBXNativeTarget "LocsappiOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +677,7 @@
 				7C67C5E91D7F520A0029D48F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
