@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C67C5BD1D7F52090029D48F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C67C5BC1D7F52090029D48F /* AppDelegate.swift */; };
+		7C67C5BF1D7F52090029D48F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C67C5BE1D7F52090029D48F /* ViewController.swift */; };
+		7C67C5C21D7F52090029D48F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C67C5C01D7F52090029D48F /* Main.storyboard */; };
+		7C67C5C41D7F52090029D48F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C67C5C31D7F52090029D48F /* Assets.xcassets */; };
+		7C67C5C71D7F52090029D48F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C67C5C51D7F52090029D48F /* LaunchScreen.storyboard */; };
+		7C67C5D21D7F520A0029D48F /* LocsappiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C67C5D11D7F520A0029D48F /* LocsappiOSTests.swift */; };
+		7C67C5DD1D7F520A0029D48F /* LocsappiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C67C5DC1D7F520A0029D48F /* LocsappiOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7C67C5CE1D7F520A0029D48F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C67C5B11D7F52090029D48F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C67C5B81D7F52090029D48F;
+			remoteInfo = LocsappiOS;
+		};
+		7C67C5D91D7F520A0029D48F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C67C5B11D7F52090029D48F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C67C5B81D7F52090029D48F;
+			remoteInfo = LocsappiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7C67C5B91D7F52090029D48F /* LocsappiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocsappiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C67C5BC1D7F52090029D48F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7C67C5BE1D7F52090029D48F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7C67C5C11D7F52090029D48F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7C67C5C31D7F52090029D48F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C67C5C61D7F52090029D48F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7C67C5C81D7F52090029D48F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C67C5CD1D7F520A0029D48F /* LocsappiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocsappiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C67C5D11D7F520A0029D48F /* LocsappiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocsappiOSTests.swift; sourceTree = "<group>"; };
+		7C67C5D31D7F520A0029D48F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C67C5D81D7F520A0029D48F /* LocsappiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocsappiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C67C5DC1D7F520A0029D48F /* LocsappiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocsappiOSUITests.swift; sourceTree = "<group>"; };
+		7C67C5DE1D7F520A0029D48F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C67C5B61D7F52090029D48F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C67C5CA1D7F520A0029D48F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C67C5D51D7F520A0029D48F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C67C5B01D7F52090029D48F = {
+			isa = PBXGroup;
+			children = (
+				7C67C5BB1D7F52090029D48F /* LocsappiOS */,
+				7C67C5D01D7F520A0029D48F /* LocsappiOSTests */,
+				7C67C5DB1D7F520A0029D48F /* LocsappiOSUITests */,
+				7C67C5BA1D7F52090029D48F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7C67C5BA1D7F52090029D48F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C67C5B91D7F52090029D48F /* LocsappiOS.app */,
+				7C67C5CD1D7F520A0029D48F /* LocsappiOSTests.xctest */,
+				7C67C5D81D7F520A0029D48F /* LocsappiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C67C5BB1D7F52090029D48F /* LocsappiOS */ = {
+			isa = PBXGroup;
+			children = (
+				7C67C5BC1D7F52090029D48F /* AppDelegate.swift */,
+				7C67C5BE1D7F52090029D48F /* ViewController.swift */,
+				7C67C5C01D7F52090029D48F /* Main.storyboard */,
+				7C67C5C31D7F52090029D48F /* Assets.xcassets */,
+				7C67C5C51D7F52090029D48F /* LaunchScreen.storyboard */,
+				7C67C5C81D7F52090029D48F /* Info.plist */,
+			);
+			path = LocsappiOS;
+			sourceTree = "<group>";
+		};
+		7C67C5D01D7F520A0029D48F /* LocsappiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				7C67C5D11D7F520A0029D48F /* LocsappiOSTests.swift */,
+				7C67C5D31D7F520A0029D48F /* Info.plist */,
+			);
+			path = LocsappiOSTests;
+			sourceTree = "<group>";
+		};
+		7C67C5DB1D7F520A0029D48F /* LocsappiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7C67C5DC1D7F520A0029D48F /* LocsappiOSUITests.swift */,
+				7C67C5DE1D7F520A0029D48F /* Info.plist */,
+			);
+			path = LocsappiOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C67C5B81D7F52090029D48F /* LocsappiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C67C5E11D7F520A0029D48F /* Build configuration list for PBXNativeTarget "LocsappiOS" */;
+			buildPhases = (
+				7C67C5B51D7F52090029D48F /* Sources */,
+				7C67C5B61D7F52090029D48F /* Frameworks */,
+				7C67C5B71D7F52090029D48F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocsappiOS;
+			productName = LocsappiOS;
+			productReference = 7C67C5B91D7F52090029D48F /* LocsappiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7C67C5CC1D7F520A0029D48F /* LocsappiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C67C5E41D7F520A0029D48F /* Build configuration list for PBXNativeTarget "LocsappiOSTests" */;
+			buildPhases = (
+				7C67C5C91D7F520A0029D48F /* Sources */,
+				7C67C5CA1D7F520A0029D48F /* Frameworks */,
+				7C67C5CB1D7F520A0029D48F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C67C5CF1D7F520A0029D48F /* PBXTargetDependency */,
+			);
+			name = LocsappiOSTests;
+			productName = LocsappiOSTests;
+			productReference = 7C67C5CD1D7F520A0029D48F /* LocsappiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7C67C5D71D7F520A0029D48F /* LocsappiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C67C5E71D7F520A0029D48F /* Build configuration list for PBXNativeTarget "LocsappiOSUITests" */;
+			buildPhases = (
+				7C67C5D41D7F520A0029D48F /* Sources */,
+				7C67C5D51D7F520A0029D48F /* Frameworks */,
+				7C67C5D61D7F520A0029D48F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C67C5DA1D7F520A0029D48F /* PBXTargetDependency */,
+			);
+			name = LocsappiOSUITests;
+			productName = LocsappiOSUITests;
+			productReference = 7C67C5D81D7F520A0029D48F /* LocsappiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C67C5B11D7F52090029D48F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ziyi Yuan";
+				TargetAttributes = {
+					7C67C5B81D7F52090029D48F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					7C67C5CC1D7F520A0029D48F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7C67C5B81D7F52090029D48F;
+					};
+					7C67C5D71D7F520A0029D48F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7C67C5B81D7F52090029D48F;
+					};
+				};
+			};
+			buildConfigurationList = 7C67C5B41D7F52090029D48F /* Build configuration list for PBXProject "LocsappiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7C67C5B01D7F52090029D48F;
+			productRefGroup = 7C67C5BA1D7F52090029D48F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C67C5B81D7F52090029D48F /* LocsappiOS */,
+				7C67C5CC1D7F520A0029D48F /* LocsappiOSTests */,
+				7C67C5D71D7F520A0029D48F /* LocsappiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C67C5B71D7F52090029D48F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C67C5C71D7F52090029D48F /* LaunchScreen.storyboard in Resources */,
+				7C67C5C41D7F52090029D48F /* Assets.xcassets in Resources */,
+				7C67C5C21D7F52090029D48F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C67C5CB1D7F520A0029D48F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C67C5D61D7F520A0029D48F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C67C5B51D7F52090029D48F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C67C5BF1D7F52090029D48F /* ViewController.swift in Sources */,
+				7C67C5BD1D7F52090029D48F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C67C5C91D7F520A0029D48F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C67C5D21D7F520A0029D48F /* LocsappiOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C67C5D41D7F520A0029D48F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C67C5DD1D7F520A0029D48F /* LocsappiOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7C67C5CF1D7F520A0029D48F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7C67C5B81D7F52090029D48F /* LocsappiOS */;
+			targetProxy = 7C67C5CE1D7F520A0029D48F /* PBXContainerItemProxy */;
+		};
+		7C67C5DA1D7F520A0029D48F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7C67C5B81D7F52090029D48F /* LocsappiOS */;
+			targetProxy = 7C67C5D91D7F520A0029D48F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7C67C5C01D7F52090029D48F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C67C5C11D7F52090029D48F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7C67C5C51D7F52090029D48F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C67C5C61D7F52090029D48F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7C67C5DF1D7F520A0029D48F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7C67C5E01D7F520A0029D48F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C67C5E21D7F520A0029D48F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LocsappiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LocsappiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7C67C5E31D7F520A0029D48F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LocsappiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LocsappiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7C67C5E51D7F520A0029D48F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LocsappiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LocsappiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocsappiOS.app/LocsappiOS";
+			};
+			name = Debug;
+		};
+		7C67C5E61D7F520A0029D48F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LocsappiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LocsappiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocsappiOS.app/LocsappiOS";
+			};
+			name = Release;
+		};
+		7C67C5E81D7F520A0029D48F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LocsappiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LocsappiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LocsappiOS;
+			};
+			name = Debug;
+		};
+		7C67C5E91D7F520A0029D48F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LocsappiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LocsappiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LocsappiOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C67C5B41D7F52090029D48F /* Build configuration list for PBXProject "LocsappiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C67C5DF1D7F520A0029D48F /* Debug */,
+				7C67C5E01D7F520A0029D48F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C67C5E11D7F520A0029D48F /* Build configuration list for PBXNativeTarget "LocsappiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C67C5E21D7F520A0029D48F /* Debug */,
+				7C67C5E31D7F520A0029D48F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7C67C5E41D7F520A0029D48F /* Build configuration list for PBXNativeTarget "LocsappiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C67C5E51D7F520A0029D48F /* Debug */,
+				7C67C5E61D7F520A0029D48F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7C67C5E71D7F520A0029D48F /* Build configuration list for PBXNativeTarget "LocsappiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C67C5E81D7F520A0029D48F /* Debug */,
+				7C67C5E91D7F520A0029D48F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C67C5B11D7F52090029D48F /* Project object */;
+}
